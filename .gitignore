@@ -1,0 +1,7 @@
+*.o
+*.plist/
+.deps/
+*.a
+.dirstamp
+Makefile
+Makefile.in
