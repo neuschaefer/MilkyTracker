@@ -1,0 +1,8 @@
+language: cpp
+
+sudo: true
+
+install:
+  # NOTE: As of August 2015, libsdl2-dev isn't available on travis-ci.org
+  - sudo apt-get install libsdl1.2-dev || true
+  - autoreconf -i
